@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Auth;
 
     /**
      * @OA\Info(
-     *     title="MarketPlus API",
+     *     title="Laravel REST API",
      *     description="The API enables users to create an account, log in, create posts (with editing and deletion capabilities), and comment on posts (with editing and deletion capabilities).",
      *     version="1.0.0",
      *     contact={
