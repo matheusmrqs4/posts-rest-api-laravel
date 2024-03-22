@@ -1,0 +1,14 @@
+# Arquivos e diretórios específicos do Laravel
+/node_modules/
+
+# Arquivos de configuração do Laravel
+.env
+.env.*
+*.key
+*.pem
+
+# Outros arquivos e diretórios não essenciais
+/.docker/
+.dockerignore
+/phpunit.xml
+/tests/
