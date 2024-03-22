@@ -3,6 +3,8 @@ Criação de uma API REST feita em Laravel usando MySQL como Banco de Dados.
 
 Essa API permite que os usuários criem uma conta, façam login, criem postagens (com recursos de edição e exclusão) e comentem em postagens (com recursos de edição e exclusão).
 
+<hr>
+
 ### Endpoints
 
 #### Autenticação
