@@ -12,6 +12,7 @@ Login ``` POST api/authenticate/login ```
 
 Logout ``` POST api/authenticate/logout ```
 
+<hr>
 
 #### Redefinição de senha
 Enviar link de redefinição para o e-mail do usuário ``` POST /password/reset-link ```
@@ -28,6 +29,8 @@ Atualiza informações do usuário ``` PUT /profile/update ```
 Upload de imagem de perfil do usuário ``` POST /profile/upload-image ```
 
 Deleta imagem de perfil do usuário ``` DELETE /profile/delete-image ```
+
+<hr>
 
 #### Posts
 Retorna todos os posts ``` GET /post ```
@@ -55,10 +58,12 @@ Salva as notificações do usuário ``` POST /notifications ```
 
 Deleta as notificações do usuário ``` DELETE /notifications ```
 
+<hr>
+
 
 ### Como rodar o projeto
 > Faça um git clone desse projeto: **git clone https://github.com/matheusmrqs4/rest-api-laravel.git**;
-> 
+ 
 > Preencha os dados do **.env**;
-> 
+
 > Rode os Containers Docker: **docker-compose up -d --build**.
