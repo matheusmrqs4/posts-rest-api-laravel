@@ -76,3 +76,5 @@ Deleta as notificações do usuário ``` DELETE /notifications ```
 > Preencha os dados do **.env** (.env.example);
 
 > Rode os Containers Docker: **docker-compose up -d --build**.
+
+> Acesse em: http://127.0.0.1:8069/ 
