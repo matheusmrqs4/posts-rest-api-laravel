@@ -73,6 +73,6 @@ Deleta as notificações do usuário ``` DELETE /notifications ```
 ### Como rodar o projeto
 > Faça um git clone desse projeto: **git clone https://github.com/matheusmrqs4/rest-api-laravel.git**;
  
-> Preencha os dados do **.env**;
+> Preencha os dados do **.env** (.env.example);
 
 > Rode os Containers Docker: **docker-compose up -d --build**.
