@@ -53,12 +53,19 @@ Atualiza um comentário ``` PUT /post/comments/{comments} ```
 
 Deleta um comentário ``` DELETE /post/comments/{comments} ```
 
+<hr>
+
 #### Notificações
 Retorna as notificações do usuário ``` GET /notifications ```
 
 Salva as notificações do usuário ``` POST /notifications ```
 
 Deleta as notificações do usuário ``` DELETE /notifications ```
+
+<hr>
+
+#### Documentação Swagger (OpenApi)
+``` GET /documentation ```
 
 <hr>
 
