@@ -47,7 +47,7 @@ Deleta um post pelo ID ``` DELETE api/post/{id} ```
 
 Pesquisa posts pela sua descrição ``` GET api/post/search/{query} ```
 
-Cria um novo comentário em um post``` POST api/post/{post}/comments ```
+Cria um novo comentário em um post ``` POST api/post/{post}/comments ```
 
 Atualiza um comentário ``` PUT api/post/comments/{comments} ```
 
