@@ -1,7 +1,7 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "MarketPlus API",
+        "title": "Laravel REST API",
         "description": "The API enables users to create an account, log in, create posts (with editing and deletion capabilities), and comment on posts (with editing and deletion capabilities).",
         "contact": {
             "url": "https://github.com/matheusmrqs4"
