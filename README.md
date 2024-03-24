@@ -17,55 +17,55 @@ Logout ``` POST api/authenticate/logout ```
 <hr>
 
 #### Redefinição de senha
-Enviar link de redefinição para o e-mail do usuário ``` POST /password/reset-link ```
+Enviar link de redefinição para o e-mail do usuário ``` POST api/password/reset-link ```
 
-Redefinir senha do usuário ``` POST /password/reset ```
+Redefinir senha do usuário ``` POST api/password/reset ```
 
 #### User
-Informações do usuário logado ``` GET /user/me ```
+Informações do usuário logado ``` GET api/user/me ```
 
-Informações do usuário pelo ID ``` GET /user/{user} ```
+Informações do usuário pelo ID ``` GET api/user/{user} ```
 
-Atualiza informações do usuário ``` PUT /profile/update ```
+Atualiza informações do usuário ``` PUT api/profile/update ```
 
-Upload de imagem de perfil do usuário ``` POST /profile/upload-image ```
+Upload de imagem de perfil do usuário ``` POST apiprofile/upload-image ```
 
-Deleta imagem de perfil do usuário ``` DELETE /profile/delete-image ```
+Deleta imagem de perfil do usuário ``` DELETE api/profile/delete-image ```
 
 <hr>
 
 #### Posts
-Retorna todos os posts ``` GET /post ```
+Retorna todos os posts ``` GET api/post ```
 
-Cria novo post ``` POST /post ```
+Cria novo post ``` POST api/post ```
 
-Retorna um post pelo ID ``` GET /post/{id} ```
+Retorna um post pelo ID ``` GET api/post/{id} ```
 
-Atualiza um post pelo ID ``` PUT /post/{id} ```
+Atualiza um post pelo ID ``` PUT api/post/{id} ```
 
-Deleta um post pelo ID ``` DELETE /post/{id} ```
+Deleta um post pelo ID ``` DELETE api/post/{id} ```
 
-Pesquisa posts pela sua descrição ``` GET /post/search/{query} ```
+Pesquisa posts pela sua descrição ``` GET api/post/search/{query} ```
 
-Cria um novo comentário em um post``` POST /post/{post}/comments ```
+Cria um novo comentário em um post``` POST api/post/{post}/comments ```
 
-Atualiza um comentário ``` PUT /post/comments/{comments} ```
+Atualiza um comentário ``` PUT api/post/comments/{comments} ```
 
-Deleta um comentário ``` DELETE /post/comments/{comments} ```
+Deleta um comentário ``` DELETE api/post/comments/{comments} ```
 
 <hr>
 
 #### Notificações
-Retorna as notificações do usuário ``` GET /notifications ```
+Retorna as notificações do usuário ``` GET api/notifications ```
 
-Salva as notificações do usuário ``` POST /notifications ```
+Salva as notificações do usuário ``` POST api/notifications ```
 
-Deleta as notificações do usuário ``` DELETE /notifications ```
+Deleta as notificações do usuário ``` DELETE api/notifications ```
 
 <hr>
 
 #### Documentação Swagger (OpenApi)
-``` GET /documentation ```
+``` GET api/documentation ```
 
 <hr>
 
@@ -85,4 +85,4 @@ Deleta as notificações do usuário ``` DELETE /notifications ```
 
 > Rode os Containers Docker: **docker-compose up -d --build**;
 
-> Acesse em: http://127.0.0.1:8069/ 
+> Acesse em: http://127.0.0.1:8069/
