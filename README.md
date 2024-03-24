@@ -69,20 +69,45 @@ Deleta as notificações do usuário ``` DELETE api/notifications ```
 
 <hr>
 
+### Pré-requisitos
+* PHP 8.3
+* Composer
 
-### Como rodar o projeto
-> Faça um git clone desse projeto:
-> ``` **git clone https://github.com/matheusmrqs4/rest-api-laravel.git** ```;
+<hr>
 
-> Entre no diretório e instale as dependências:
-> ``` **cd rest-api-laravel** ```;
-> ``` **composer install** ```;
+### Instalação
+1. Clone o repositório:
+```
+git clone https://github.com/matheusmrqs4/rest-api-laravel.git
+```
 
-> Crie um arquivo .env e preencha os dados:
-``` **cp .env.example .env** ```;
+2. Entre no diretório:
+ 
+```
+cd your-repo
+```
 
-> Use o comando ``` **php artisan key:generate** ``` para gerar uma nova chave da aplicação;
+3. Instale as dependências:
+```
+composer install
+```
 
-> Rode os Containers Docker: ``` **docker-compose up -d --build** ```;
+4. Crie um arquivo .env e preencha os dados:
+```
+cp .env.example .env**
+```
 
-> Acesse em: http://127.0.0.1:8069/
+5. Gere uma nova chave da aplicação:
+```
+php artisan key:generate
+```
+
+6. Rode os Containers Docker:
+```
+docker-compose up -d --build
+```
+
+7. Acesse em:
+```
+http://127.0.0.1:8069/
+```
