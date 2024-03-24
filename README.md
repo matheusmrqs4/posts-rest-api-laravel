@@ -72,17 +72,17 @@ Deleta as notificações do usuário ``` DELETE api/notifications ```
 
 ### Como rodar o projeto
 > Faça um git clone desse projeto:
-> **git clone https://github.com/matheusmrqs4/rest-api-laravel.git**;
+> ``` **git clone https://github.com/matheusmrqs4/rest-api-laravel.git** ```;
 
 > Entre no diretório e instale as dependências:
-> **cd rest-api-laravel**;
-> **composer install**;
+> ``` **cd rest-api-laravel** ```;
+> ``` **composer install** ```;
 
 > Crie um arquivo .env e preencha os dados:
-**cp .env.example .env**;
+``` **cp .env.example .env** ```;
 
-> Use o comando **php artisan key:generate** para gerar uma nova chave da aplicação;
+> Use o comando ``` **php artisan key:generate** ``` para gerar uma nova chave da aplicação;
 
-> Rode os Containers Docker: **docker-compose up -d --build**;
+> Rode os Containers Docker: ``` **docker-compose up -d --build** ```;
 
 > Acesse em: http://127.0.0.1:8069/
