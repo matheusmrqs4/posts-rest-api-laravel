@@ -78,7 +78,7 @@ Deleta as notificações do usuário ``` DELETE api/notifications ```
 ### Instalação
 1. Clone o repositório:
 ```
-git clone https://github.com/matheusmrqs4/rest-api-laravel.git
+git clone https://github.com/matheusmrqs4/posts-rest-api-laravel
 ```
 
 2. Entre no diretório:
