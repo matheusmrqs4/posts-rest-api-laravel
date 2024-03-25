@@ -72,6 +72,7 @@ Deleta as notificações do usuário ``` DELETE api/notifications ```
 ### Pré-requisitos
 * PHP 8.3
 * Composer
+* Docker
 
 <hr>
 
@@ -94,7 +95,7 @@ composer install
 
 4. Crie um arquivo .env e preencha os dados:
 ```
-cp .env.example .env**
+cp .env.example .env
 ```
 
 5. Gere uma nova chave da aplicação:
